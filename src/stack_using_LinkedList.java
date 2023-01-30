@@ -46,7 +46,7 @@ public class stack_using_LinkedList {
         s.push(5);
         s.push(7);
         while(!s.isEmpty()){
-            System.out.println(s.peek());
+            System.out.println(s.peek());  //peek operation is being performed.
             s.pop();
         }
     }
