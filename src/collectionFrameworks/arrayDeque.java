@@ -9,6 +9,21 @@ public class arrayDeque {
         adq.offerLast(45);
 
         System.out.println(adq);
+
+        adq.offer(55);
+
+        System.out.println(adq.peek());
+        System.out.println(adq.peekFirst());
+        System.out.println(adq.peekLast());
+
+        System.out.println(adq.poll());
+        System.out.println("Poll()"+adq);
+
+        System.out.println(adq.pollFirst());
+        System.out.println("pollFirst():"+adq);
+
+        System.out.println(adq.pollLast());
+        System.out.println("pollLast():"+adq);
     }
 }
 
