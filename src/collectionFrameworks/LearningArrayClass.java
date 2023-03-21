@@ -1,3 +1,5 @@
+package collectionFrameworks;
+
 import java.util.Arrays;
 
 public class LearningArrayClass {
